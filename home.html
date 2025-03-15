@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Image Caption App</title>
+    <title>TravelGram - Feed</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <div class="navbar">
-        <h1>Image Caption App</h1>
+        <h2>TravelGram</h2>
         <button onclick="logout()">Logout</button>
     </div>
 
-    <div class="upload-section">
+    <!-- Upload Section -->
+    <div class="upload-container">
         <input type="file" id="imageInput" accept="image/*">
-        <input type="text" id="captionInput" placeholder="Enter caption">
+        <input type="text" id="captionInput" placeholder="Write a caption...">
         <button onclick="uploadImage()">Upload</button>
     </div>
 
+    <!-- Feed Section -->
     <div class="feed" id="feed"></div>
 
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
