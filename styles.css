@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #15202b;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    background: #192734;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1da1f2;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1991db;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #192734;
+}
+
+.upload-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.feed {
+    max-width: 600px;
+    margin: auto;
+}
+
+.post {
+    background: #22303c;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 16px;
+}
